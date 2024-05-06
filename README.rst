@@ -1,13 +1,6 @@
-Title
+HR attendance kiosk fix 17.0
 ===============================
-Description
-
-Configuration
-=============
-
-Usage
-=====
-Description usage
+Di default quando si agisce sul chiosco non agisce correttamente sulla company corrente ma sempre id 1, fix
 
 
 Dependencies

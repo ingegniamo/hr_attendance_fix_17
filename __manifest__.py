@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "",
+    'name': "HR attendance kiosk fix 17.0",
     
     'summary': "",
   
