@@ -8,7 +8,7 @@ import datetime
 from odoo.addons.hr_attendance.controllers.main import HrAttendance as HrAttendanceOdoo
 class HrAttendance(HrAttendanceOdoo):
     @http.route('/hr_attendance/manual_selection', type="json", auth="public")
-    def manual_selection_with_geolocation(self, token, employee_id, pin_code):        
+    def manual_selection_with_geolocation(self, token, employee_id, pin_code, latitude=None, longitude=None):
         company = self._get_company(token)        
         if company:
             #raise Exception(123)
